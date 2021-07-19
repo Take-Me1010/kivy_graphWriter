@@ -1,0 +1,4 @@
+__pycache__/
+*.pdn
+/docs/
+/libs/ply_tex2sym

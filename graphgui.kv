@@ -1,0 +1,38 @@
+
+#: import hex kivy.utils.get_color_from_hex
+#: import repath libs.utils.resource_path
+
+#: import Header header.Header
+#: import FileChooserWindow filechooserwindow.FileChooserWindow
+#: import FormulaWindow formulawindow.FormulaWindow
+#: import PlotWindow plotwindow.PlotWindow
+
+<RootWidget>:
+    canvas.before:
+        Color:
+            rgba: (0, 0, 0.54, 0.8)
+        Rectangle:
+            size: self.size
+            pos: self.pos
+
+    Header:
+        id: header
+        size_hint: 1, 0.05
+        pos_hint: {'x':0, 'top':1}
+
+    FileChooserWindow:
+        id: filechooserwindow
+        size_hint_x: 0.3
+        size_hint_y: 0.9
+        pos_hint: {'x':0, 'y':0}
+
+
+    PlotWindow:
+        id: plotwindow
+        size_hint: 0.5, 0.9
+        pos_hint: {'x':0.3, 'y':0}
+
+    FormulaWindow:
+        id: formulawindow
+        size_hint: 0.2, 0.9
+        pos_hint: {'x':0.8, 'y':0}

@@ -1,6 +1,6 @@
 {
     "FileChooserWindow": {
-        "path": "C:/Users/taketo/Desktop/university"
+        "path": "C:/Users"
     },
     "PlotWindow": {
         "axisconfig": {
@@ -16,7 +16,7 @@
             "grid": false,
             "log_x": false,
             "log_y": false,
-            "markers": false
+            "markers": true
         },
         "advancedconfig": {
             "xpad": [
@@ -28,40 +28,9 @@
     },
     "FormulaWindow": {
         "mode": "Scatter",
-        "rv_csv.data": [
-            {
-                "label": "Label",
-                "path": "C:\\Users\\taketo\\Desktop\\研究室\\IV\\assignments\\term-I\\task3\\data\\data.csv",
-                "index": 0
-            }
-        ],
-        "rv_formula.data": [
-            {
-                "formula": "A = 2",
-                "index": 0
-            },
-            {
-                "formula": "l = 0.8",
-                "index": 1
-            },
-            {
-                "formula": "t = 0.2",
-                "index": 2
-            },
-            {
-                "formula": "T = 0.8",
-                "index": 3
-            },
-            {
-                "formula": "v = 1",
-                "index": 4
-            },
-            {
-                "formula": "A\\sin{2\\ppi*(\\frac{t}{T}-\\frac{x}{v})}",
-                "index": 5
-            }
-        ],
-        "savedir": "C:/Users",
+        "rv_csv.data": [],
+        "rv_formula.data": [],
+        "savedir": "C:/Users/",
         "savename": "image.png"
     }
 }

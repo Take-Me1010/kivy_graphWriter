@@ -11,7 +11,7 @@ Builder.load_string('''
 <FileChooserWindow>:
     btn_left: repath('./data/image/button/left.png')
     btn_right: repath('./data/image/button/right.png')
-    path: 'C:/Users/taketo/Desktop/university'
+    path: 'C:/Users'
     ImageButton:
         id: arrow_btn
         size_hint_x: 0.5

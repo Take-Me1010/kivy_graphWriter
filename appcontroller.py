@@ -208,7 +208,7 @@ class AppController:
         try:
             path = state.get('FileChooserWindow')['path']
             self.filechooserwindow.set_filechooser_path(path)
-        except (KeyError, TypeError) as e:
+        except (KeyError, TypeError, FileNotFoundError) as e:
             self.print_warn(f'failed to load {state} in FileChooserWindow due to {e}')
 
         try:
